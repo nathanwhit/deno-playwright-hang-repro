@@ -1,0 +1,55 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@playwright/test@^1.46.1": "npm:@playwright/test@1.46.1",
+      "npm:@types/node": "npm:@types/node@18.16.19",
+      "npm:playwright": "npm:playwright@1.46.1",
+      "npm:playwright@1.41.1": "npm:playwright@1.41.1"
+    },
+    "npm": {
+      "@playwright/test@1.46.1": {
+        "integrity": "sha512-Fq6SwLujA/DOIvNC2EL/SojJnkKf/rAwJ//APpJJHRyMi1PdKrY3Az+4XNQ51N4RTbItbIByQ0jgd1tayq1aeA==",
+        "dependencies": {
+          "playwright": "playwright@1.46.1"
+        }
+      },
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
+      "fsevents@2.3.2": {
+        "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
+        "dependencies": {}
+      },
+      "playwright-core@1.41.1": {
+        "integrity": "sha512-/KPO5DzXSMlxSX77wy+HihKGOunh3hqndhqeo/nMxfigiKzogn8kfL0ZBDu0L1RKgan5XHCPmn6zXd2NUJgjhg==",
+        "dependencies": {}
+      },
+      "playwright-core@1.46.1": {
+        "integrity": "sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==",
+        "dependencies": {}
+      },
+      "playwright@1.41.1": {
+        "integrity": "sha512-gdZAWG97oUnbBdRL3GuBvX3nDDmUOuqzV/D24dytqlKt+eI5KbwusluZRGljx1YoJKZ2NRPaeWiFTeGZO7SosQ==",
+        "dependencies": {
+          "fsevents": "fsevents@2.3.2",
+          "playwright-core": "playwright-core@1.41.1"
+        }
+      },
+      "playwright@1.46.1": {
+        "integrity": "sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==",
+        "dependencies": {
+          "fsevents": "fsevents@2.3.2",
+          "playwright-core": "playwright-core@1.46.1"
+        }
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:@playwright/test@^1.46.1"
+    ]
+  }
+}

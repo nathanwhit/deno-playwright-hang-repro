@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start:test": "deno run -A server.ts",
+    "test": "deno run -A npm:playwright test"
+  },
+  "nodeModulesDir": true,
+  "imports": {
+    "@playwright/test": "npm:@playwright/test@^1.46.1"
+  }
+}
